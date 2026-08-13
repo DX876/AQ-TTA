@@ -1,14 +1,11 @@
 Our framework is based on CompressAI(https://github.com/InterDigitalInc/CompressAI).
 
-We modify following files for usage.
+We modify following files for usage(Building the framework for our image compression network and the corresponding model training).
 /examples/train.py
 /compressai/utils/eval_model/__main__.py
-/compressai/utils/update_model/__main__.py
-/compressai/zoo/image.py
-/compressai/zoo/__init__.py
 
-We add following files for our model.
-/compressai/models/ours.py
+We add following files for our model(The files of Test-time adaptation like main.py/net.py for our model are not included).
+/compressai/models/dcae.py
 /compressai/models/our_utils.py
 
 =======================================================================
