@@ -1,6 +1,6 @@
 Our framework is based on CompressAI(https://github.com/InterDigitalInc/CompressAI).
 
-We modify following files for usage(Building the framework for our image compression network and the corresponding model training).
+We modify following files for usage(Building the framework for our image compression network and the corresponding model training steps).
 /examples/train.py
 /compressai/utils/eval_model/__main__.py
 
